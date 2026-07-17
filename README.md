@@ -1,82 +1,90 @@
-# SQL-banking-project
-# SQL Bank Management Database
+# SQL Banking Project
+
+## SQL Bank Management Database
 
 ## Overview
 
-This project demonstrates the fundamentals of SQL database design using MySQL.
+This project demonstrates the fundamentals of SQL database design and data management using **MySQL**. It includes creating a simple **Bank Management Database** and performing both **Data Definition Language (DDL)** and **Data Manipulation Language (DML)** operations.
 
-It includes creating a simple Bank Management Database and performing various SQL Data Definition Language (DDL) operations.
+The project is designed to help beginners understand database creation, table relationships, constraints, and data management using SQL.
 
 ---
 
 ## Technologies Used
 
-- MySQL
-- SQL
-- MySQL Workbench
+* MySQL
+* SQL
+* MySQL Workbench
 
 ---
 
-## Concepts Covered
+## DDL Concepts Covered
 
-- CREATE DATABASE
-- CREATE TABLE
-- ALTER TABLE
-- MODIFY Columns
-- ADD Columns
-- PRIMARY KEY
-- FOREIGN KEY
-- UNIQUE Constraint
-- CHECK Constraint
-- INSERT Statements
-- DROP TABLE
+* CREATE DATABASE
+* CREATE TABLE
+* ALTER TABLE
+* MODIFY Columns
+* ADD Columns
+* PRIMARY KEY
+* FOREIGN KEY
+* UNIQUE Constraint
+* CHECK Constraint
+* DROP TABLE
+
+---
+
+## DML Concepts Covered
+
+* INSERT INTO
+* SELECT
+* UPDATE
+* DELETE
+* WHERE Clause
 
 ---
 
 ## Database Tables
 
-- Customers
-- Accounts
-- Transactions
-- Branches
-- Loans
+* Customers
+* Accounts
+* Transactions
+* Branches
+* Loans
 
 ---
 
-## Relationships
+## Database Relationships
 
-- One Customer → Many Accounts
-- One Branch → Many Accounts
-- One Customer → Many Loans
-- One Account → Many Transactions
+* One Customer → Many Accounts
+* One Branch → Many Accounts
+* One Customer → Many Loans
+* One Account → Many Transactions
 
 ---
 
 ## SQL Concepts Practiced
 
-✔ Database Creation
+### Data Definition Language (DDL)
 
-✔ Table Creation
+* ✔ Database Creation
+* ✔ Table Creation
+* ✔ Data Types
+* ✔ Primary Keys
+* ✔ Foreign Keys
+* ✔ Unique Constraints
+* ✔ Check Constraints
+* ✔ ALTER TABLE
+* ✔ MODIFY Columns
+* ✔ ADD Columns
+* ✔ DROP TABLE
 
-✔ Data Types
+### Data Manipulation Language (DML)
 
-✔ Primary Keys
-
-✔ Foreign Keys
-
-✔ Check Constraints
-
-✔ Unique Constraints
-
-✔ Alter Table
-
-✔ Modify Columns
-
-✔ Add Columns
-
-✔ Insert Records
-
-✔ Drop Tables
+* ✔ INSERT Records
+* ✔ SELECT Records
+* ✔ UPDATE Existing Records
+* ✔ DELETE Records
+* ✔ Data Verification using SELECT
 
 ---
 
@@ -84,22 +92,23 @@ It includes creating a simple Bank Management Database and performing various SQ
 
 This project helped me understand:
 
-- Database Design
-- Relational Databases
-- Table Relationships
-- Data Integrity
-- SQL Constraints
-- DDL Commands
-- Basic MySQL Database Administration
+* Database Design
+* Relational Database Concepts
+* Table Relationships
+* Data Integrity
+* SQL Constraints
+* DDL Commands
+* DML Commands
+* Basic MySQL Database Administration
 
 ---
 
 ## Project Structure
 
-```
-sql-bank-management-lab/
+```text
+SQL-Banking-Project/
 │
-├── sql_lab2.sql
+├── sql_bank_management.sql
 ├── README.md
 └── LICENSE (Optional)
 ```
@@ -112,4 +121,4 @@ sql-bank-management-lab/
 
 B.Tech – Computer Science & Engineering (Data Science)
 
-Learning SQL | MySQL | Database Design
+Learning **SQL | MySQL | Database Design | Database Management**
